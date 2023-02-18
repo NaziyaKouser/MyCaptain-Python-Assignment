@@ -1,6 +1,6 @@
 # Finding a frequency of a string 
 
-def frequency(str):
+def most_frequent(str):
     d={ }
     for i in str:
         if i not in d and i.isalpha():
@@ -11,4 +11,4 @@ def frequency(str):
     for i in D.items():
         print(i)
     
-frequency('Mississippi')
+most_frequent('Mississippi')
